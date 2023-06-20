@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="vendors/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.css">
+  <link rel="stylesheet" href="vendors/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.css">
+  <link rel="stylesheet" href="vendors/jquery.whatsapp/venom-button.min.css"/>
+  
+
+  <link rel="stylesheet" href="sharp/stylesheet.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Burger</title>
+</head>
+
+<body>
+
+  <header class="fondoHeader">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand  text-light" href="#">
+          Nombre
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="index.html">Beneficios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#destacados">Productos destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+
+
+
+
+
+
+  <section class="carrito">
+
+    <div class="container-fluid p-5">
+      <div class="container text-center pb-5">
+        <h1>Mira nuestros productos y </h1>
+        <h2>Hacé tu pedido</h2>
+      </div>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <h2>Nuestras burgers</h2>
+
+            <div id="hamburguesas" class="row">
+              <!-- Acá vienen los productos -->
+            </div>
+            <h2>Milanesas</h2>
+            <div id="milanesas" class="row">
+              <!-- Acá vienen los productos -->
+            </div>
+
+            <h2>Para picar</h2>
+            <div id="paraPicar" class="row">
+              <!-- Acá vienen los productos -->
+            </div>
+
+            <h2>Bebidas</h2>
+            <div id="bebidas" class="row">
+              <!-- Acá vienen los productos -->
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h2>Mi pedido</h2>
+
+            <div id="smartcart" class="bg-dark p-5 text-light rounded-2"></div>
+          </div>
+        </div>
+
+
+        <div class="row">
+
+
+
+
+        </div>
+
+        <div class="col-md-3  " id="smartcart">
+
+        </div>
+    </div>
+
+
+
+
+    </div>
+    </div>
+
+    </div>
+    <div class="col-md-3">
+      <div id="smartcart">
+
+
+      </div>
+    </div>
+    </div>
+
+    </div>
+    </div>
+  </section>
+
+  <div id="myButton" class="venom-button"> 
+    
+  </div>
+
+
+
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-4 pb-0">
+      <div class="mb-4">
+
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+            class="bi bi-instagram"></i></i></a>
+
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-facebook"></i></a>
+
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-twitter"></i></a>
+
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-whatsapp"></i></a>
+
+      </div>
+    </div>
+    <div id="year" class="text-center p-3 bg-dark-subtle">
+      © <span class="year"></span> Veggie Kingdom
+    </div>
+
+  </footer>
+
+  <script>
+    /*calcula el año actual ;)*/
+    var yearElement = document.querySelector('.year');
+
+    var currentYear = new Date().getFullYear();
+
+    yearElement.textContent = currentYear;
+  </script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="vendors/jquery.whatsapp/venom-button.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+    $('#myButton').venomButton({
+    phone: '1562278972',
+    chatMessage: 'Chat Window Title',
+    message: "Chat Message",
+    nameClient: "jQuery Script",
+    showPopup: true
+    });
+    });
+  </script>
+
+
+  <!-- JavaScript, Bootstrap, jQuery -->
+  <script src="vendors/jquery/dist/jquery.min.js"></script>
+  <script src="vendors/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery.marquee@1.6.0/jquery.marquee.min.js"></script>
+  <script src="vendors/jquery-smartcart/dist/js/jquery.smartCart.min.js"></script>
+  <script src="vendors/jquery.smartcart/js/jquery.smartCart.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  
+  <!-- Scripts -->
+  <script src="js/productos.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
