@@ -220,15 +220,20 @@ li{
   color: white;
 }
 
+.list-group-flush>.list-group-item{
+  background-color: #A05FFF;
+  color: #FEDE0B;
+}
+
 .accordion-button:not(.collapsed) {
   background-color: #A05FFF;
   font-weight: 600;
-  color: #fff;}
+  color: #FEDE0B;}
   
   .acordionVisitanos .accordion-button:not(.collapsed) {
   background-color:  #6234A4;
   font-weight: 600;
-  color: #fff;}
+  color: #FEDE0B;}
 
 .accordion-item:first-of-type .accordion-button {
   border-top-left-radius: var(--bs-accordion-inner-border-radius);
