@@ -5,7 +5,7 @@ $(document).ready(function () {
 
 
         $('#hamburguesas').append(
-            '<div class="col-6 col-sm-4 pb-5">' +
+            '<div class="col-12 col-md-6 col-lg-6 px-3 py-4">' +
             '<div class="sc-product-item card">' +
             '<img class="card-img-top" data-name="product_image" src="img/productos/' + hamburguesas[i]['Imagen'] + '" alt="' + hamburguesas[i]['Nombre'] + '">' +
             '<div class="card-body d-flex flex-column">' +
@@ -26,7 +26,7 @@ $(document).ready(function () {
 
 
         $('#milanesas').append(
-            '<div class="col-6 col-sm-4 pb-5">' +
+            '<div class="col-12 col-md-6 col-lg-6 p-2">' +
             '<div class="sc-product-item card">' +
             '<img class="card-img-top" data-name="product_image" src="img/productos/' + milanesas[i]['Imagen'] + '" alt="' + milanesas[i]['Nombre'] + '">' +
             '<div class="card-body d-flex flex-column">' +
@@ -49,7 +49,7 @@ $(document).ready(function () {
 
 
         $('#paraPicar').append(
-            '<div class="col-6 col-sm-4 pb-5">' +
+            '<div class="col-12 col-md-6 col-lg-6 p-2">' +
             '<div class="sc-product-item card">' +
             '<img class="card-img-top" data-name="product_image" src="img/productos/' + paraPicar[i]['Imagen'] + '" alt="' + paraPicar[i]['Nombre'] + '">' +
             '<div class="card-body d-flex flex-column">' +
@@ -73,7 +73,7 @@ $(document).ready(function () {
 
 
         $('#bebidas').append(
-            '<div class="col-6 col-sm-4 pb-5">' +
+            '<div class="col-12 col-md-6 col-lg-6 p-2">' +
             '<div class="sc-product-item card">' +
             '<img class="card-img-top" data-name="product_image" src="img/productos/' + bebidas[i]['Imagen'] + '" alt="' + bebidas[i]['Nombre'] + '">' +
             '<div class="card-body d-flex flex-column">' +

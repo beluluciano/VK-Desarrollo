@@ -6,7 +6,7 @@ hamburguesas[0] = [];
 
 hamburguesas[0]['Nombre'] = 'La favorita';
 hamburguesas[0]['Precio'] = 2000;
-hamburguesas[0]['Descripción'] = 'Hamburguesa con un medallones notco a base de plantas, cheddar vegano, cebolla crispy, lechuga repollada.';
+hamburguesas[0]['Descripción'] = 'Hamburguesa con un medallon notco a base de plantas, cheddar vegano, cebolla crispy, lechuga repollada.';
 hamburguesas[0]['Imagen'] = 'card-hamburguesa1.png';
 
 hamburguesas[1] = [];
