@@ -34,13 +34,15 @@ color: #FEDE0B !important;
 
 .btn-primary {
   background-color: #6234A4 !important ;
-  color: #FFB819 !important;
+  color: white !important;
+  font-weight: 500;
   border-color: #6234A4 !important;
 }
 
 .btn-primary:hover {
   background-color: #A05FFF !important;
-  color: #FFB819 !important;
+  color: white !important;
+  font-weight: bold !important;
   border-color: #A05FFF !important;
 }
 
